@@ -1,0 +1,250 @@
+{
+  "version": 4,
+  "targets": {
+    "net9.0": {
+      "AngouriMath/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.13.1",
+          "GenericTensor": "1.0.4",
+          "HonkSharp": "1.0.3",
+          "PeterO.Numbers": "1.8.0"
+        },
+        "compile": {
+          "lib/net8.0/AngouriMath.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AngouriMath.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "GenericTensor/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GenericTensor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/GenericTensor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "HonkSharp/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/HonkSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/HonkSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "PeterO.Numbers/1.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Numbers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.0/Numbers.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AngouriMath/2.5.0": {
+      "sha512": "wrOOzOA0FePqdso5UnL5w4qXXPVEHVJn8Ccd0l0o6WAtMG3Fv2ODgt+7JV9zAyNIpsyCn0nah5YJQ/w2qJuVMA==",
+      "type": "package",
+      "path": "angourimath/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PackageReadme.md",
+        "angourimath.2.5.0.nupkg.sha512",
+        "angourimath.nuspec",
+        "icon.png",
+        "interactive-extensions/dotnet/extension.dib",
+        "lib/net10.0/AngouriMath.dll",
+        "lib/net10.0/AngouriMath.xml",
+        "lib/net8.0/AngouriMath.dll",
+        "lib/net8.0/AngouriMath.xml",
+        "lib/netstandard2.0/AngouriMath.dll",
+        "lib/netstandard2.0/AngouriMath.xml"
+      ]
+    },
+    "Antlr4.Runtime.Standard/4.13.1": {
+      "sha512": "Da5+i4kFHUseJRZGcBG5fmZGpA/Ns180ibrQMxgZzjpQOnENVvSL5gi5HZ8Ncz8/AR2WsKbOg2lMBzjz0HUQcA==",
+      "type": "package",
+      "path": "antlr4.runtime.standard/4.13.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "antlr4.runtime.standard.4.13.1.nupkg.sha512",
+        "antlr4.runtime.standard.nuspec",
+        "lib/net45/Antlr4.Runtime.Standard.dll",
+        "lib/net45/Antlr4.Runtime.Standard.xml",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.dll",
+        "lib/netstandard2.0/Antlr4.Runtime.Standard.xml"
+      ]
+    },
+    "GenericTensor/1.0.4": {
+      "sha512": "sQsqRbJiwFH37OjriIKQx3VWKuRJ09s/SZdwqL0FreJbFSpbpY1UKeiP8RWsb88QcS2DgyicheyvdJ9YgLnUpQ==",
+      "type": "package",
+      "path": "generictensor/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "generictensor.1.0.4.nupkg.sha512",
+        "generictensor.nuspec",
+        "ico1.png",
+        "lib/net472/GenericTensor.dll",
+        "lib/net472/GenericTensor.xml",
+        "lib/netstandard2.0/GenericTensor.dll",
+        "lib/netstandard2.0/GenericTensor.xml"
+      ]
+    },
+    "HonkSharp/1.0.3": {
+      "sha512": "nV2VQhjXCuF7UC730/Pmb+CLfsdZad2J1JCNqlVCHjgBbn41LWODrJv5LDQPUKYIjZJC66pR9rSmSmyalKF7fA==",
+      "type": "package",
+      "path": "honksharp/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "honksharp.1.0.3.nupkg.sha512",
+        "honksharp.nuspec",
+        "lib/net472/HonkSharp.dll",
+        "lib/net472/HonkSharp.xml",
+        "lib/netstandard2.0/HonkSharp.dll",
+        "lib/netstandard2.0/HonkSharp.xml",
+        "lib/netstandard2.1/HonkSharp.dll",
+        "lib/netstandard2.1/HonkSharp.xml",
+        "logo256.png"
+      ]
+    },
+    "PeterO.Numbers/1.8.0": {
+      "sha512": "N8ffDC+jwF1XcA+VfugZO1+wFClOvWjyXzXrstkpdjkgH2LgAfnEZIAFQbKgidHtTh5RAfwhCtH3MSfgZXxXwA==",
+      "type": "package",
+      "path": "petero.numbers/1.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Numbers.dll",
+        "lib/net20/Numbers.xml",
+        "lib/net40/Numbers.dll",
+        "lib/net40/Numbers.xml",
+        "lib/netstandard1.0/Numbers.dll",
+        "lib/netstandard1.0/Numbers.xml",
+        "petero.numbers.1.8.0.nupkg.sha512",
+        "petero.numbers.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "AngouriMath >= 2.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\guada\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\guada\\LaplaceED2026\\PruebasILaplace\\PruebasILaplace.csproj",
+      "projectName": "PruebasILaplace",
+      "projectPath": "C:\\Users\\guada\\LaplaceED2026\\PruebasILaplace\\PruebasILaplace.csproj",
+      "packagesPath": "C:\\Users\\guada\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guada\\LaplaceED2026\\PruebasILaplace\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\guada\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "framework": "net9.0",
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.400"
+    },
+    "frameworks": {
+      "net9.0": {
+        "framework": "net9.0",
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "AngouriMath": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

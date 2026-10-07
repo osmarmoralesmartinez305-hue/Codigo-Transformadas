@@ -1,0 +1,107 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "PruebasILaplace/1.0.0": {
+        "dependencies": {
+          "AngouriMath": "2.5.0"
+        },
+        "runtime": {
+          "PruebasILaplace.dll": {}
+        }
+      },
+      "AngouriMath/2.5.0": {
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.13.1",
+          "GenericTensor": "1.0.4",
+          "HonkSharp": "1.0.3",
+          "PeterO.Numbers": "1.8.0"
+        },
+        "runtime": {
+          "lib/net8.0/AngouriMath.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "Antlr4.Runtime.Standard/4.13.1": {
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "assemblyVersion": "4.13.1.0",
+            "fileVersion": "4.13.1.0"
+          }
+        }
+      },
+      "GenericTensor/1.0.4": {
+        "runtime": {
+          "lib/netstandard2.0/GenericTensor.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
+      "HonkSharp/1.0.3": {
+        "runtime": {
+          "lib/netstandard2.1/HonkSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "PeterO.Numbers/1.8.0": {
+        "runtime": {
+          "lib/netstandard1.0/Numbers.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PruebasILaplace/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngouriMath/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wrOOzOA0FePqdso5UnL5w4qXXPVEHVJn8Ccd0l0o6WAtMG3Fv2ODgt+7JV9zAyNIpsyCn0nah5YJQ/w2qJuVMA==",
+      "path": "angourimath/2.5.0",
+      "hashPath": "angourimath.2.5.0.nupkg.sha512"
+    },
+    "Antlr4.Runtime.Standard/4.13.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Da5+i4kFHUseJRZGcBG5fmZGpA/Ns180ibrQMxgZzjpQOnENVvSL5gi5HZ8Ncz8/AR2WsKbOg2lMBzjz0HUQcA==",
+      "path": "antlr4.runtime.standard/4.13.1",
+      "hashPath": "antlr4.runtime.standard.4.13.1.nupkg.sha512"
+    },
+    "GenericTensor/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sQsqRbJiwFH37OjriIKQx3VWKuRJ09s/SZdwqL0FreJbFSpbpY1UKeiP8RWsb88QcS2DgyicheyvdJ9YgLnUpQ==",
+      "path": "generictensor/1.0.4",
+      "hashPath": "generictensor.1.0.4.nupkg.sha512"
+    },
+    "HonkSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nV2VQhjXCuF7UC730/Pmb+CLfsdZad2J1JCNqlVCHjgBbn41LWODrJv5LDQPUKYIjZJC66pR9rSmSmyalKF7fA==",
+      "path": "honksharp/1.0.3",
+      "hashPath": "honksharp.1.0.3.nupkg.sha512"
+    },
+    "PeterO.Numbers/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8ffDC+jwF1XcA+VfugZO1+wFClOvWjyXzXrstkpdjkgH2LgAfnEZIAFQbKgidHtTh5RAfwhCtH3MSfgZXxXwA==",
+      "path": "petero.numbers/1.8.0",
+      "hashPath": "petero.numbers.1.8.0.nupkg.sha512"
+    }
+  }
+}

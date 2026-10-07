@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Wa6u9t3y0Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guada\\LaplaceED2026\\PruebasILaplace\\PruebasILaplace.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guada\\.nuget\\packages\\angourimath\\2.5.0\\angourimath.2.5.0.nupkg.sha512",
+    "C:\\Users\\guada\\.nuget\\packages\\antlr4.runtime.standard\\4.13.1\\antlr4.runtime.standard.4.13.1.nupkg.sha512",
+    "C:\\Users\\guada\\.nuget\\packages\\generictensor\\1.0.4\\generictensor.1.0.4.nupkg.sha512",
+    "C:\\Users\\guada\\.nuget\\packages\\honksharp\\1.0.3\\honksharp.1.0.3.nupkg.sha512",
+    "C:\\Users\\guada\\.nuget\\packages\\petero.numbers\\1.8.0\\petero.numbers.1.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
